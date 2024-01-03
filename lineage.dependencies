@@ -1,6 +1,8 @@
 [
  {
-   "repository": "android_kernel_xiaomi_mido",
-   "target_path": "kernel/xiaomi/mido"
+   "repository": "NRanjan-17/kernel_xiaomi_mido",
+   "target_path": "kernel/xiaomi/mido",
+   "remote": "github",
+   "revision": "fourteen"
  }
 ]
