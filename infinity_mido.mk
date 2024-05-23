@@ -22,21 +22,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Custom stuff
-EVO_BUILD_TYPE := OFFICIAL
 TARGET_USES_LEGACY_BOOTANIMATION := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_USES_MINI_GAPPS := true
+INFINITY_MAINTAINER := Darknius_FreePalestine
+WITH_GMS := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := lineage_mido
+PRODUCT_NAME := infinity_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi

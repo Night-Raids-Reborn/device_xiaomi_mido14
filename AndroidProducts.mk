@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mido.mk
+    $(LOCAL_DIR)/infinity_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mido-user \
-    lineage_mido-userdebug \
-    lineage_mido-eng
+    infinity_mido-user \
+    infinity_mido-userdebug \
+    infinity_mido-eng
