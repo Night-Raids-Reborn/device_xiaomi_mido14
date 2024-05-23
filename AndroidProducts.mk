@@ -14,9 +14,13 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_mido.mk
+    $(LOCAL_DIR)/infinity_mido.mk \
+    $(LOCAL_DIR)/voltage_mido.mk
 
 COMMON_LUNCH_CHOICES := \
     infinity_mido-user \
     infinity_mido-userdebug \
-    infinity_mido-eng
+    infinity_mido-eng \
+    voltage_mido-user \
+    voltage_mido-userdebug \
+    voltage_mido-eng
